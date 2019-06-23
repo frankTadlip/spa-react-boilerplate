@@ -2,9 +2,9 @@ import { routerReducer } from 'react-router-redux';
 import { combineReducers } from 'redux';
 import { reducer as form } from 'redux-form';
 
-// ***
-import loginReducer from './modules/login/duck';
-import mainPageReducer from './modules/main/duck';
+// // ***
+// import loginReducer from './modules/login/duck';
+// import mainPageReducer from './modules/main/duck';
 
 const appReducer = combineReducers({
 

@@ -6,10 +6,11 @@ import { ConnectedRouter } from 'react-router-redux';
 
 import stores from './stores';
 import routes from './routes';
+import history from './history';
 
 render(
     <Provider store={stores}>
-        <ConnectedRouter>
+        <ConnectedRouter history={history}>
             {renderRoutes(routes)}
         </ConnectedRouter>
     </Provider>,

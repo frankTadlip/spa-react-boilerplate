@@ -6,11 +6,6 @@ import Main from '../components/main';
 
 import * as duck from '../duck';
 
-@connect(
-    (state) => state.mainPageReducer,
-    (dispatch) => ({ actions: bindActionCreators(duck, dispatch) })
-)
-
 class MainContainer extends React.Component {
 
     constructor(props) {

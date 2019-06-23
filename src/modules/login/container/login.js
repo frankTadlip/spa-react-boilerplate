@@ -8,11 +8,6 @@ import * as duck from '../duck';
 
 import LoginForm from '../components/login-form';
 
-@connect(
-    (state) => state.loginReducer,
-    (dispatch) => ({ actions: bindActionCreators(duck, dispatch) })
-)
-
 class LoginContainer extends React.Component {
     componentWillMount() {
     }
