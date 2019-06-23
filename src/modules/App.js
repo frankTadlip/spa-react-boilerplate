@@ -1,12 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { renderRoutes } from 'react-router-config';
 
-class App extends Component {
+import Helmet from 'react-helmet';
+
+class App extends React.Component {
     render() {
-
+        const { route } = this.props;
         return (
-            <div>
-                <h1>HELLO WORLD!! </h1>
-            </div>
+            <main>
+                <Helmet titleTemplate="Pinnacle - %s" />
+                {renderRoutes(route.routes)}
+            </main>
         )
 
     }

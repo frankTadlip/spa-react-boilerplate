@@ -15,14 +15,21 @@
   "license": "MIT",
   "dependencies": {
     "jquery": "^3.4.1",
+    "loadash": "^1.0.0",
     "metro4": "^4.2.44",
     "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-avatar": "^3.6.0",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^7.1.0",
     "react-router": "^5.0.1",
-    "react-router-dom": "^5.0.1"
+    "react-router-config": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.1",
+    "redux-form": "^8.2.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
